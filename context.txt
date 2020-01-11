@@ -1,0 +1,13 @@
+this is test file
+If the pointer points to an output stream or a recent operation that is not an input update stream,
+ the output refresh will create any unwritten data to the stream to be written to and the most recent data to be modified stream,
+
+ and the last file state change should be marked as the timestamp of the updated underlying file.
+To open the file descriptor for reading based on using the flow,
+ if the file is not yet in the EOF,
+ and file,
+And  dlrow olleh any has not been read from the stream ungetc () or ungetwc characters () back to flow will be discarded (no further change file offset). [end of option]
+ 
+ 
+
+
