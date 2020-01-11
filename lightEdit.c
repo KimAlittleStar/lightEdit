@@ -116,7 +116,7 @@ void Edit_showLine(int n)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
@@ -133,7 +133,7 @@ void Edit_deleteLine(int n)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
@@ -159,7 +159,7 @@ void Edit_copyLineToUp(int des, int src)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 ///< @todo 高耦合 可优化
@@ -185,7 +185,7 @@ void Edit_copyLineToDown(int des, int src)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
@@ -224,7 +224,7 @@ void Edit_replace(int line, int row, int charCnt, char *des, char *src)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
@@ -246,7 +246,7 @@ void Edit_instert(int line, int row, char *str)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
@@ -285,7 +285,7 @@ void Edit_deleteStr(int line, int row, int n, char *str)
     }
     else
     {
-        K_WARNINR("out of max line%d", "\n");
+        K_WARNINR("out of max line%s", "\n");
     }
 }
 
