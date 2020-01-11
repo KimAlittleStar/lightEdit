@@ -16,24 +16,26 @@
     **linux**: input `make target=lightedit.out`
     如编译成功将会出现以下字样  
     ```
+    $ mingw32-make.exe target=lightedit.exe 
+    finding D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c depending head file
+    finding D:/EclipsecCode/myGitProject/lightEdit/Exfunction.c depending head file
+    finding D:/EclipsecCode/myGitProject/lightEdit/main.c depending head file
+    finding D:/EclipsecCode/myGitProject/lightEdit/debug/memwatch.c depending head file
+    finding D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c depending head file
+    compile D:/EclipsecCode/myGitProject/lightEdit/debug/memwatch.c
+    compile D:/EclipsecCode/myGitProject/lightEdit/main.c
+    compile D:/EclipsecCode/myGitProject/lightEdit/Exfunction.c
+    compile D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c
+    bulding....
+    created file: lightedit.exe
     ``` 
 2. 执行程序  
    **windows**: 命令行输入 `./lightedit.exe`  
    **linux**: 命令行输入 `./lightedit.out`  
    like this
    ```
-   $ mingw32-make.exe target=lightedit.exe 
-   finding D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c depending head file
-   finding D:/EclipsecCode/myGitProject/lightEdit/Exfunction.c depending head file
-   finding D:/EclipsecCode/myGitProject/lightEdit/main.c depending head file
-   finding D:/EclipsecCode/myGitProject/lightEdit/debug/memwatch.c depending head file
-   finding D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c depending head file
-   compile D:/EclipsecCode/myGitProject/lightEdit/debug/memwatch.c
-   compile D:/EclipsecCode/myGitProject/lightEdit/main.c
-   compile D:/EclipsecCode/myGitProject/lightEdit/Exfunction.c
-   compile D:/EclipsecCode/myGitProject/lightEdit/lightEdit.c
-   bulding....
-   created file: lightedit.exe
+   $ ./lightedit.exe
+   typing your command
    ```  
 
    你可以执行命令 `list` 或者 `help` 查看所有可执行命令的列表;  
